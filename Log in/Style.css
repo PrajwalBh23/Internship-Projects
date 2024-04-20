@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 99.5%;
+    margin: 1px auto;
+    background-image: url('./Deer.jpg');
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    display: flex;
+    height: 75px;
+    font-family:  Lucida Console;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+}
+h1{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .list{
+    
+    width: 65%;
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 30%;
+    margin-top: 22px;
+}
+
+.list li ::after{
+    content: "";
+    position: absolute;
+    width: 98px;
+    height: 3px;
+    background-color: rgb(65, 42, 165);
+    margin-left: -90px;
+    margin-top: 30px;
+    transform: scale(0);
+    transition: transform 0.5s;
+    transform-origin: right;
+}
+.list li:hover ::after{
+   transform: scale(1);
+   transform-origin: left;
+}
+
+ul li {
+    margin: 0% 4%;
+    font-size: 30px;
+}
+.bttn{
+    width: 15%;
+}
+
+.btn{
+    width: 85px;
+    height: 40px;
+    border: 0px;
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn a{
+    color: black;
+}
+
+.box{
+    margin: 10% 20% auto 30%;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 auto;
+}
+
+.wrapper h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.input_box{
+    width: 100%;
+    position: relative;
+    margin: 30px 0px;
+    height: 20px;
+    border-bottom: 2px solid black;
+    font-size: 14px;
+}
+.input_box input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.input_box label{
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    transform: translateY(-5px);
+    pointer-events: none;
+    transition: .5s;
+}
+.input_box input:focus + label { 
+    top: -20px;
+    font-size: 14px;
+}
+.input_box .icon{
+    position: absolute;
+    right: 8px;
+}
+
+.rember input{
+    vertical-align: -1px;
+    font-size: 11px;
+}
+.rember a{
+    margin-left: 30px ;
+    color: black;
+    text-decoration: none;
+}
+
+.Butt button{
+    width: 100%;
+    height: 30px;
+    margin: 20px 0px;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 8px;
+    background-color: rgb(6, 17, 54);
+    color: white;
+}
+
+.login-register{
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+}
+.input_box label.focused {
+    top: -12px;
+    font-size: 14px;
+}
+
+.reg .input_box label {
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    transform: translateY(-5px);
+    pointer-events: none;
+    transition: .5s;
+    font-size: 14px;
+}
+
+.reg .input_box input:focus + label { 
+    top: -20px;
+    font-size: 14px;
+}
+
+.reg .input_box .icon {
+    position: absolute;
+    right: 8px;
+}
+
+.reg .login-register {
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.reg .input_box label.focused {
+    top: -12px;
+    font-size: 14px;
+}
