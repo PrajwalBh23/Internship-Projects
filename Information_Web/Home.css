@@ -1,0 +1,68 @@
+.Nav{
+    border: 1px solid rosybrown;
+    margin-top: 0;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    background-color: beige;
+    line-height: 20px;
+    /*background-image: url('./icon-services-fcs.png');
+    background-repeat: no-repeat;
+    background-size: 70px 70px;*/
+}
+.Nav a{
+    padding-left: 40px;
+    color: darkmagenta;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.but-3 img{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle; /* Most important tag to fit in same line*/
+}
+.but-3{
+    margin-left: 10px;
+}
+.but-1{
+    display: inline-flex;
+    margin-left: 50%;
+    /*margin-right: 2%;*/
+    background-color: rgb(8, 8, 136);
+    color: aliceblue;
+    padding: 10px 15px 8px 15px;
+    cursor: pointer;
+}
+.but-2 {
+    background-color: rgb(8, 8, 136);
+    color: aliceblue;
+    padding: 10px 15px 8px 15px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.page{
+    margin: 1px;
+    
+}
+.page img{
+    max-height: 500px;
+}
+.topic{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.HTML{
+    border: 1px solid gray;
+    padding: 35px;
+    width: 25%;
+    margin: 2px;
+    text-align: center;
+    justify-content: center;
+}
+.HTML img{
+    max-height: 300px;
+    width: auto;
+}

@@ -1,0 +1,98 @@
+.Nav {
+    border: 1px solid rosybrown;
+    margin-top: 0px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    background-color: beige;
+    line-height: 20px;
+    /*background-image: url('./icon-services-fcs.png');
+    background-repeat: no-repeat;
+    background-size: 70px 70px;*/
+}
+
+.Nav a {
+    padding-left: 40px;
+    color: darkmagenta;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Float-right {
+    float: right;
+    margin-right: 40px;
+    margin-top: -5px;
+}
+
+.Float-right a {
+    padding-left: 10px;
+}
+
+.but-3 img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    /* Most important tag to fit in same line*/
+}
+
+.but-3 {
+    margin-left: 10px;
+}
+
+.but-1 {
+    display: inline-flex;
+    background-color: rgb(8, 8, 136);
+    color: aliceblue;
+    padding: 10px 15px 8px 15px;
+    cursor: pointer;
+}
+
+.but-2 {
+    background-color: rgb(8, 8, 136);
+    color: aliceblue;
+    padding: 10px 15px 8px 15px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url('./Photos/Login_back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px;
+}
+
+.Form {
+    border: 1px dotted white;
+    background-color: rgb(240, 255, 251);
+    margin-left: 38%;
+    margin-top: 16%;
+    width: 25%;
+    text-align: center;
+    height: 300px;
+    font-size: 20px;
+    background-color: transparent;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.Table {
+    margin: 25px 35px 20px 20px;
+    
+}
+input[type=text],input[type=password]
+{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.Button {
+    margin-bottom: 10%;
+    margin-top: 15px;
+    background-color: #89aef2;
+    border-radius: 20px;
+    color: rgb(221, 219, 124);
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
